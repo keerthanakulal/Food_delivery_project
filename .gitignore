@@ -1,0 +1,24 @@
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Local editor settings
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+temp.txt
+*.log
+
+# Local database files and backups
+*.db
+*.sqlite3
+*.bak
